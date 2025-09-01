@@ -2,7 +2,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-
 import '../../widgets/CustomAppBar.dart';
 import '../AddEdit/AddEdit.dart';
 import '../Home/Product_lIsts.dart';
