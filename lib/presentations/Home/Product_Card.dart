@@ -52,7 +52,6 @@ class ProductCard extends StatelessWidget {
                   width: double.infinity,
                   height: 140.h,
                 )
-
               ),
             ),
             Padding(

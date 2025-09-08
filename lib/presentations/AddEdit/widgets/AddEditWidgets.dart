@@ -59,8 +59,6 @@ class AddEditWidgets {
               ),
             );
           }
-
-          // If there's an existing image URL, show it
           final url = formController.imageUrl.value.trim();
           if (url.isNotEmpty && url.startsWith('http')) {
             return ClipRRect(
@@ -74,8 +72,6 @@ class AddEditWidgets {
               ),
             );
           }
-
-          // Otherwise show placeholder
           return Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -488,7 +484,6 @@ class AddEditWidgets {
         ),
       );
     } else {
-      // Use Image.file for local images
       return Image.file(
         File(imageUrl),
         width: width,
